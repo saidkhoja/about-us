@@ -176,3 +176,69 @@ a{
     color: var(--main-text-color); 
 } 
 /****************** HEADER STYLES END *****************/ 
+
+
+
+
+/****************** ABOUT STYLES START *****************/ 
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 137px 85px;
+    background-color: #A2A2A2;
+    border-radius: 10px; ;
+    background-image: url("../images/Group\ 7.png");
+    background-size:cover;
+}
+.about-title{
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin: 0 0 24px;
+    width: 100%;
+    max-width: 188px;
+}
+.about-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin: 0;
+    width: 100%;
+    max-width: 445px;
+}
+/****************** ABOUT RESPONSIVE START *****************/ 
+@media only screen and (max-width:770px) {
+    .about-title{
+        font-size: 32px;
+        line-height: 40px;
+        width: 100%;
+        max-width: 150px;
+    }
+    .about-text{
+        font-size: 15px;
+        line-height: 25px;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        width: 100%;
+        max-width: 398px;
+    }
+}
+@media only screen and (max-width:440px) {
+    .about-title{
+        font-size: 28px;
+        line-height: 28px;
+        margin: 0 auto 24px;
+        width: 100%;
+        max-width: 179px;
+        text-align: center;
+    }
+    .about-text{
+        width: 100%;
+        max-width: 279px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+/****************** ABOUT RESPONSIVE END *****************/ 
+/****************** ABOUT STYLES END *****************/ 
